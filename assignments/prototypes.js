@@ -38,6 +38,13 @@
   * Instances of Humanoid should have all of the same properties as CharacterStats and GameObject.
   * Instances of CharacterStats should have all of the same properties as GameObject.
 */
+function GameObject(attributes){
+  this.newCreatedAt = attributes.createdAt,
+  this.newName = attributes.name,
+  this.newDimensions = attributes.dimensions,
+}
+
+
 
 // Test you work by un-commenting these 3 objects and the list of console logs below:
 
